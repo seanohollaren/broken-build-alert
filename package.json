@@ -1,0 +1,25 @@
+{
+  "name": "alert-broken-build-sms",
+  "version": "1.0.0",
+  "description": "Send an SMS message when a build fails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanohollaren/broken-build-alert.git"
+  },
+  "author": "Sean O'Hollaren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanohollaren/broken-build-alert/issues"
+  },
+  "homepage": "https://github.com/seanohollaren/broken-build-alert#readme",
+  "dependencies": {
+    "twilio": "^2.9.2"
+  },
+  "devDependencies": {
+    "grunt-aws-lambda": "^0.13.0"
+  }
+}
